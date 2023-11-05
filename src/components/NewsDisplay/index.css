@@ -1,0 +1,41 @@
+.news-container {
+    /* Existing styles for the news container */
+  }
+  
+  .news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* At least 300px wide with equal distribution */
+    gap: 20px; /* Adjust the gap as needed */
+  }
+  
+  .headline-container {
+    /* Styles for individual headline containers */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .headline-container a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .headline-container p {
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .headline-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 150px;
+    height: fit-content;
+    text-align:right;
+}
